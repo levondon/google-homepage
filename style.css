@@ -1,0 +1,66 @@
+body {
+	margin-top: 15px;
+}
+
+input {
+	padding-left: 35px;
+}
+
+footer {
+	
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 175px;
+
+}
+
+.top {
+	text-decoration: none;
+	font-family: arial,sans-serif;
+	cursor: pointer;
+	font-size: 13px;
+	padding-left: 15px;
+    opacity: .75;
+    color: gray;
+	
+}
+
+.top:hover {
+	text-decoration: underline;
+}
+
+.search {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	width: 540px;
+	height: 35px;
+	outline: none;
+	
+}
+ .search:hover {
+	 box-shadow: 0 0 2px 1px grey;
+ }
+
+#search {
+	margin-top: 35px;
+}
+
+.button {
+    display: flex;
+	margin-left: auto;
+	margin-right: auto;
+    color: blue;
+}
+
+
+
+
+
+
+

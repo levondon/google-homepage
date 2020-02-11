@@ -18,18 +18,56 @@ footer {
 
 }
 
-.top {
-	text-decoration: none;
-	font-family: arial,sans-serif;
-	cursor: pointer;
-	font-size: 13px;
-	padding-left: 15px;
-    opacity: .75;
-    color: gray;
-	
+#top {
+    display: block;
+    position: relative;
+    font-family: arial, sans-serif;
+    font-size: 14px;
 }
 
-.top:hover {
+.top-about{
+    display: inline-block;
+    color:gray;
+    text-decoration: none;
+    padding-left: 15px;
+
+}
+.top-store{
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.top-gmail{
+    position: absolute;
+    right: 180px;
+    color: gray;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.top-images{
+    position: absolute;
+    right: 110px;
+    color: gray;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+.top-button{
+    position: absolute;
+    right: 15px;
+    color: white;
+    background-color: rgb(87, 123, 223);
+    height: 34px;
+    width: 78px;
+    border-radius: 5px;
+    
+    
+}
+
+.top-about:hover, .top-gmail:hover,
+.top-store:hover, .top-images:hover {
 	text-decoration: underline;
 }
 
@@ -51,11 +89,13 @@ footer {
 	margin-top: 35px;
 }
 
+#button {
+    text-align: center;
+}
 .button {
-    display: flex;
-	margin-left: auto;
-	margin-right: auto;
-    color: blue;
+    cursor: pointer;
+    margin-top: 30px;
+    display: inline-block;
 }
 
 
